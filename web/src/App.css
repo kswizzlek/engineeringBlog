@@ -1,0 +1,83 @@
+.App {
+  text-align: left;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-top: 1rem;
+  font-size: small;
+  color: pink;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  margin-top: .25rem;
+}
+
+.Frontend {
+  color:lightblue
+}
+
+.Frontend:hover {
+  color:rgb(53, 181, 224)
+}
+
+.Backend {
+  color:lightgreen
+}
+
+.Backend:hover {
+  color:rgb(66, 237, 66)
+}
+
+.Databases {
+  color:yellow
+}
+
+.Databases:hover {
+  color:rgb(255, 225, 0)
+}
+
+.Cloud {
+  color:orange
+}
+
+.Cloud:hover {
+  color:rgb(255, 128, 0)
+}
+
+.DevOps {
+  color:plum
+}
+
+.DevOps:hover {
+  color:rgb(219, 72, 219)
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
